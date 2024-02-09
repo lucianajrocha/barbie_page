@@ -1,0 +1,126 @@
+body {
+font-family: Arial, sans-serif;
+padding: 20px 360px;
+}
+.header {
+background-color: #fff;
+color: #000;
+display: flex;
+justify-content: space-between;
+align-items: center;
+margin-bottom: 20px;
+}
+.header nav {
+display: flex;
+gap: 20px;
+align-items: center;
+}
+.header nav a {
+text-decoration: none;
+color: #000; 
+font-weight: normal;
+font-size: 16px;
+padding: 5px 10px;
+transition: color 0.3s;
+font-weight: bold;
+}
+.header nav a:hover {
+color: #e91e63; 
+}
+.icones-texto a {
+font-size: 16px; 
+color: #666; 
+text-decoration: none;
+padding: 0 5px;
+font-weight: bold;
+}
+.centro {
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+text-align: center;
+}
+.galeria{
+text-align: center;
+margin-top: 50px;
+}
+.proposito-titulo {
+font-size: 24px;
+text-transform: uppercase;
+margin-bottom: 20px;
+color: #ed4399;
+}
+.proposito-subtitulo {
+font-size: 28px;
+font-weight: 300;
+margin-bottom: 20px;
+}
+.videos {
+display: flex;
+justify-content: space-between;
+}
+.video {
+width: 32%;
+height: 100px;
+}
+.video iframe {
+width: 320px;
+height: 240px;
+}
+.video-titulo {
+margin-top: 10px;
+}
+.conteudo {
+max-width: 1200px;
+margin-top: 150px;
+padding: 20px;
+}
+.conteudo-titulo {
+text-align: center;
+font-size: 36px;
+color: #333;
+margin-bottom: 50px;
+}
+.grade-conteudo {
+display: flex;
+justify-content: space-between;
+margin-bottom: 20px;
+}
+.bloco-conteudo {
+width: 32%;
+text-align: center;
+}
+.bloco-conteudo img {
+width: 100%;
+height: auto;
+margin-bottom: 20px;
+}
+.bloco-conteudo h3 {
+color: #e91e63;
+font-size: 20px;
+margin-bottom: 10px;
+}
+.bloco-conteudo h4 {
+color: #333;
+font-size: 18px;
+margin-bottom: 15px;
+}
+.bloco-conteudo p {
+font-size: 16px;
+color: #666;
+margin-bottom: 20px;
+}
+.botao-assistir {
+display: inline-block;
+background: #e91e63;
+color: #fff;
+padding: 10px 20px;
+text-decoration: none;
+font-weight: bold;
+border-radius: 2px;
+transition: background-color 0.3s ease;
+}
+.botao-assistir:hover {
+background: #c2185b; 
+}
